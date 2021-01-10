@@ -1,10 +1,12 @@
 install_raspi-config
 ====================
 
-Script to install raspi-config on Raspberry Pi devices with an Linux OS that's missing it. Like Kali Linux.
-Must be run as root or with sudo.
+Script to install raspi-config on Raspberry Pi devices with a Linux OS that's missing it, like Kali Linux.
 
-sudo sh install.sh
+Must be run as root or with sudo:
 
-The reference for the raspi-config package being installed might not be the latest one, since I don't update this script with each new version.
-So use the installed raspi-config to update itself.
+```
+sudo ./install.sh
+```
+
+The reference for the raspi-config package being installed might not be the latest one, since I don't update this script with each new version. So use the installed raspi-config to update itself, or modify [line 6](https://github.com/cdzombak/install_raspi-config/blob/master/install.sh#L6) before installing.
